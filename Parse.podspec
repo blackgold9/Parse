@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'Parse.framework'
   s.frameworks = 'AudioToolbox', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'Security', 'QuartzCore', 'Parse'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse"' }
-  s.library = 'z', 'sqlite3'
+  s.library = 'z', 'sqlite3.0'
 end
